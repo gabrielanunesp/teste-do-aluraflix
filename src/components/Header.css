@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Espaçamento entre os elementos */
+  align-items: center; /* Centraliza os itens verticalmente */
+  background-color: #007bff; /* Cor de fundo */
+  color: white;
+  padding: 10px 20px;
+  width: 100vw; /* Ocupa 100% da largura da viewport */
+  position: sticky; /* Fixa no topo da página */
+  top: 0;
+  z-index: 1000; /* Garante que o header fique sobre os outros elementos */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+.logo-container img {
+  max-height: 40px; /* Ajuste o tamanho do logo */
+}
+
+.title-container {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os botões */
+}
+
+nav button {
+  padding: 8px 15px;
+  font-size: 1rem;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #003f7f;
+}
+
+
+/* Overlay do Formulário */
+.form-container-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Estilo do Formulário */
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%; /* Ajusta o tamanho do formulário */
+  max-width: 500px; /* Limita o tamanho máximo */
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container .save-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container .clear-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container .close-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.form-container .close-button:hover,
+.form-container .save-button:hover,
+.form-container .clear-button:hover {
+  opacity: 0.9;
+}

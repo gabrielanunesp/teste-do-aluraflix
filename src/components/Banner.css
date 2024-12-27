@@ -1,0 +1,24 @@
+/* Banner */
+/* Estilo para o Banner */
+.banner {
+  width: 100%; /* Garante que o banner ocupe toda a largura */
+  height: calc(100vh - 60px); /* O Banner ocupa 100% da altura da tela, subtraindo a altura do Header */
+  background-image: url('imagem/programa.jpg'); /* Substitua pela sua imagem */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  color: white;
+  text-align: center;
+  padding: 20px; /* Espaçamento interno, ajustável */
+}
+
+.banner h1 {
+  font-size: 4rem; /* Ajuste o tamanho da fonte para o título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.banner p {
+  font-size: 1.5rem; /* Ajuste o tamanho da fonte para a descrição */
+}
