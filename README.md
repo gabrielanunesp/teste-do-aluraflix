@@ -1,8 +1,23 @@
-# React + Vite
+# AluraFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AluraFlix é um aplicativo web para adicionar, organizar e exibir vídeos de diferentes categorias. A plataforma permite aos usuários adicionar vídeos, categoriza-los em Frontend, Backend ou Gestão, e também editar ou excluir vídeos através de modais interativos. A aplicação possui uma interface limpa e intuitiva, permitindo uma navegação fácil entre as categorias de vídeos.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar Vídeos : O usuário pode adicionar vídeos preenchendo um formulário com informações como título, categoria, descrição e URL do vídeo.
+- Categorias de Vídeos : Os vídeos são organizados em três categorias principais: Frontend, Backend e Gestão.
+- Edição de Vídeos : É possível editar os vídeos já cadastrados, mantendo as informações atualizadas.
+- Exclusão de Vídeos : Permite excluir vídeos da plataforma com facilidade.
+
+
+## Aprendizados
+
+React : Para construção da interface do usuário e gerenciamento de estado.
+CSS : Para estilização de página e componentes.
+Modal : Utilizado para editar e excluir vídeos de maneira interativa.
+
+
+
+
+
+## Screenshots
