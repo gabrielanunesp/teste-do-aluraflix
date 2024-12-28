@@ -21,3 +21,6 @@ Modal : Utilizado para editar e excluir vídeos de maneira interativa.
 
 
 ## Screenshots
+![IMG-20241227-WA0122](https://github.com/user-attachments/assets/fa7ad636-483b-49a2-8394-9ca5ad004147)
+
+![IMG-20241227-WA0123](https://github.com/user-attachments/assets/48f68024-8feb-4c42-ac52-38e247a08d1a)
